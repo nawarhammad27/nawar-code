@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minimalist Furniture Store">
+    <title>Minimalist Furniture Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-color: #eaeaea;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            flex: 1 1 30%;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery-item h3 {
+            margin: 15px 0;
+            font-size: 22px;
+        }
+
+        .gallery-item p {
+            color: #777;
+        }
+
+        .gallery-item .price {
+            font-size: 20px;
+            color: #000;
+        }
+
+        .contact-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 36px;
+        }
+
+        .contact-section form {
+            margin: 0 auto;
+            max-width: 500px;
+        }
+
+        .contact-section input,
+        .contact-section textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-section button {
+            padding: 15px 30px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minimalist Furniture</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Modern & Minimalist Furniture</h1>
+    <p>Design your space with style and simplicity</p>
+</section>
+
+<section class="gallery" id="gallery">
+    <div class="gallery-item">
+        <img src="https://via.placeholder.com/300" alt="Furniture 1">
+        <h3>Modern Chair</h3>
+        <p>Comfort meets style with this modern chair</p>
+        <p class="price">$199</p>
+    </div>
+    <div class="gallery-item">
+        <img src="https://via.placeholder.com/300" alt="Furniture 2">
+        <h3>Wooden Table</h3>
+        <p>Elegant and sturdy wooden table</p>
+        <p class="price">$299</p>
+    </div>
+    <div class="gallery-item">
+        <img src="https://via.placeholder.com/300" alt="Furniture 3">
+        <h3>Cozy Sofa</h3>
+        <p>Relax in style with this cozy sofa</p>
+        <p class="price">$499</p>
+    </div>
+</section>
+
+<section class="contact-section" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Minimalist Furniture Store. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
